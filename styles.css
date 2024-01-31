@@ -1,0 +1,166 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    
+}
+/*body{
+    background-color: #24252a;
+}*/
+
+nav {
+    position: fixed;
+    background-color:#24252a;
+    height: 70px;
+    width: 100%;
+
+}
+ul{
+    position: relative;
+    float: right;
+}
+ ul, li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+    
+
+ .nav_links ul li a{
+    text-decoration: none;
+    color: #edf0f1;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+    
+}
+.nav_links ul li a:hover{
+    color: #0088a9;
+}
+.logo{
+    position: relative;
+    left: 5%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+
+}
+  button:hover{
+    background-color: rgba(0,136,169, 0.8);
+}
+.main_img{
+    width: 100%;
+    height: 500px;
+}
+
+.section1{
+padding-top: 70px;
+}
+.img_text{
+ position: absolute;
+ top: 40%;
+ left: 40%;
+ text-transform: capitalize;
+ font-size: 30px;
+ color: #edf0f1;
+ background-color: #24252a;
+ padding-right: 20px;
+ padding-left: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+.kssmb1{
+    width: 100%;
+    height: 250px;
+}
+
+.col-md-8{
+
+text-align: center;
+color: #edf0f1;
+margin-right: 2em;
+flex-grow: 1;
+line-height: 1.5;
+width: 60%;
+}
+.col-md-8 h1{
+    text-transform: capitalize;
+}
+span{
+    text-transform: uppercase;
+}
+/*login form*/
+.form_deg{
+    padding-top: 200px;
+}
+
+.login_form{
+    background-color: #0088a9;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.label_deg{
+    display: inline-block;
+    color: #edf0f1;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.submit{
+    background-color: #24252a;
+    font-weight: bold;
+    border-radius: 5px;
+    padding:10px;
+    color: #edf0f1;
+    text-transform: capitalize;
+}
+.title_deg{
+    background-color: #24252a;
+    color: #edf0f1;
+    font-weight: bold;
+    font-size: 32px;
+    width: 400px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.background{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.kssmb1{
+    border-radius: 50%;
+    width: 500px;
+    height: 550px;
+}
+.col-md-8{
+    color: #24252a;
+}
+/*footer*/
+footer{
+   background-color:#24252a;
+    height: 70px;
+    width: 100%;
+}
+.footer_text{
+    text-align: center;
+    color: #edf0f1;
+    top: 20%;
+    position: relative;
+}
