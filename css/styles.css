@@ -37,10 +37,10 @@ ul{
     color: #0088a9;
 }
 .logo{
+    border-radius:10px;
     position: relative;
     left: 5%;
     cursor: pointer;
-    border-radius: 10px;
 }
 button{
     padding: 9px 25px;
@@ -157,10 +157,19 @@ footer{
    background-color:#24252a;
     height: 70px;
     width: 100%;
+    text-align: center;
+
 }
 .footer_text{
     text-align: center;
     color: #edf0f1;
     top: 20%;
     position: relative;
+}
+.icons .fa{
+    color: #f44336;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px;
+
 }
