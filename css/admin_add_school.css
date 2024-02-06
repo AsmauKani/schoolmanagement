@@ -1,6 +1,6 @@
 .content{
     margin-left: 30%;
-    margin-top:15%;
+    margin-top:5%;
     color: #edf0f1;
     text-transform: capitalize;
     font-weight: bold;
@@ -10,10 +10,10 @@
 }
 .div_deg{
    background-color: rgba(0,136,169, 1);
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 40px;
     width: 500px;
-    margin: 50px;
+    margin: 10px;
 }
 .submit{
    background-color:#24252a; 
@@ -27,7 +27,7 @@
     
 }
 .submit:hover{
-   background-color: burlywood;
+    background-color: rgba(0,136,169, 0.8);
 }
 
 

@@ -1,0 +1,53 @@
+header{
+    background-color:#24252a;
+    line-height: 70px;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color:#edf0f1;
+    font-weight: bold;
+    text-transform: capitalize;
+
+
+}
+.logout{
+    float: right;
+    padding-right: 30px;
+}
+.logout a{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+
+}
+  a:hover{
+    background-color: rgba(0,136,169, 0.8);
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .transfer{
+    height: 500px;
+    width: 600px;
+    border-radius: 50%;
+  }
+.option_transfer{
+    margin-right: 4em;
+    padding: 8px;
+    text-transform: capitalize;
+    color:#24252a;
+    font-size: 16px;
+    font-weight: bold;
+} 
+
+
+  
